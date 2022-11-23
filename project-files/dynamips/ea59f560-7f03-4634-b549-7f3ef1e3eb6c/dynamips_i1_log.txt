@@ -1,0 +1,63 @@
+Nov 23 17:12:15.531 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 23 17:12:15.532 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 1060.
+Nov 23 17:12:15.726 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 23 17:12:15.726 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Laranjo\GNS3\projects\Projeto\project-files\dynamips 
+Nov 23 17:12:15.732 GENERAL: working_dir=C:\Users\Laranjo\GNS3\projects\Projeto\project-files\dynamips
+Nov 23 17:12:15.732 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Laranjo\GNS3\projects\Projeto\project-files\dynamips\ea59f560-7f03-4634-b549-7f3ef1e3eb6c 
+Nov 23 17:12:15.732 GENERAL: working_dir=C:\Users\Laranjo\GNS3\projects\Projeto\project-files\dynamips\ea59f560-7f03-4634-b549-7f3ef1e3eb6c
+Nov 23 17:12:15.733 HYPERVISOR: exec_cmd: vm create R1 1 c7200 
+Nov 23 17:12:15.735 VM: VM R1 created.
+Nov 23 17:12:15.735 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Nov 23 17:12:15.735 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+Nov 23 17:12:15.735 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 23 17:12:15.735 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+Nov 23 17:12:15.736 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Nov 23 17:12:15.736 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Nov 23 17:12:15.737 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 23 17:12:15.737 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60608040 
+Nov 23 17:12:15.737 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Laranjo/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Nov 23 17:12:15.738 HYPERVISOR: exec_cmd: c7200 set_mac_addr R1 ca01.0544.0000 
+Nov 23 17:12:15.738 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Nov 23 17:12:15.738 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+Nov 23 17:12:15.739 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 23 17:12:15.739 HYPERVISOR: exec_cmd: vm slot_remove_binding R1 0 0 
+Nov 23 17:12:15.739 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 23 17:12:15.739 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-2FE 
+Nov 23 17:12:15.739 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 23 17:12:15.739 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-2FE-TX 
+Nov 23 17:12:17.668 HYPERVISOR: exec_cmd: nio create_udp udp-e57edcfe-a1e1-4d73-87d5-a31d7b7f48fa 20008 127.0.0.1 20009 
+Nov 23 17:12:17.914 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-e57edcfe-a1e1-4d73-87d5-a31d7b7f48fa 
+Nov 23 17:12:17.915 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 23 17:12:17.993 HYPERVISOR: exec_cmd: nio create_udp udp-3777c65e-78ad-49c4-9e43-9ba4eeff61e2 20012 127.0.0.1 20013 
+Nov 23 17:12:17.995 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 1 0 udp-3777c65e-78ad-49c4-9e43-9ba4eeff61e2 
+Nov 23 17:12:17.995 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 23 17:12:18.586 HYPERVISOR: exec_cmd: nio create_udp udp-7add3c91-a9c9-411b-995b-145d6bd46750 20040 127.0.0.1 20041 
+Nov 23 17:12:18.588 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-7add3c91-a9c9-411b-995b-145d6bd46750 
+Nov 23 17:12:18.588 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 23 17:12:18.763 HYPERVISOR: exec_cmd: nio create_udp udp-d404a49f-e27e-4d98-b5c9-f931263c3b51 20048 127.0.0.1 20049 
+Nov 23 17:12:18.765 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 1 1 udp-d404a49f-e27e-4d98-b5c9-f931263c3b51 
+Nov 23 17:12:18.765 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 23 17:12:41.865 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Nov 23 17:12:41.866 VM: VM Ghost created.
+Nov 23 17:12:41.868 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Laranjo/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Nov 23 17:12:41.869 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Nov 23 17:12:41.869 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C:\Users\Laranjo\GNS3\projects\Projeto\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Nov 23 17:12:41.871 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Nov 23 17:12:41.871 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 23 17:12:41.873 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Nov 23 17:12:41.873 HYPERVISOR: exec_cmd: vm start Ghost 
+Nov 23 17:12:42.409 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 23 17:12:42.411 HYPERVISOR: exec_cmd: vm stop Ghost 
+Nov 23 17:12:42.556 VM: VM Ghost shutdown.
+Nov 23 17:12:42.557 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Nov 23 17:12:42.559 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Nov 23 17:12:42.559 VM: VM Ghost destroyed.
+Nov 23 17:12:42.569 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Nov 23 17:12:42.570 HYPERVISOR: exec_cmd: vm set_ghost_file R1 C:\Users\Laranjo\GNS3\projects\Projeto\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Nov 23 17:12:42.570 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 23 17:12:42.571 HYPERVISOR: exec_cmd: vm set_config R1 configs\i1_startup-config.cfg configs\i1_private-config.cfg 
+Nov 23 17:12:42.571 HYPERVISOR: exec_cmd: vm start R1 
+Nov 23 17:13:05.044 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Laranjo/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Nov 23 17:13:09.128 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Laranjo/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Nov 23 17:13:13.088 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 23 17:13:15.669 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Laranjo/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
