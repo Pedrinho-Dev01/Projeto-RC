@@ -1,0 +1,25 @@
+Nov 25 14:57:12.045 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 25 14:57:12.046 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 28042.
+Nov 25 14:57:12.554 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 25 14:57:12.555 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Laranjo\GNS3\projects\Projeto\project-files\dynamips 
+Nov 25 14:57:12.555 GENERAL: working_dir=C:\Users\Laranjo\GNS3\projects\Projeto\project-files\dynamips
+Nov 25 14:57:12.555 HYPERVISOR: exec_cmd: ethsw create Switch3 
+Nov 25 14:57:13.742 HYPERVISOR: exec_cmd: nio create_udp udp-b1b7619f-e103-4935-ac1c-6bee5130ab9d 20023 127.0.0.1 20022 
+Nov 25 14:57:13.743 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-b1b7619f-e103-4935-ac1c-6bee5130ab9d 
+Nov 25 14:57:13.745 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-b1b7619f-e103-4935-ac1c-6bee5130ab9d 1 
+Nov 25 14:57:13.781 HYPERVISOR: exec_cmd: nio create_udp udp-90577a7c-07ab-4ed9-b299-bc68b6904da0 20026 127.0.0.1 20027 
+Nov 25 14:57:13.782 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-90577a7c-07ab-4ed9-b299-bc68b6904da0 
+Nov 25 14:57:13.807 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-90577a7c-07ab-4ed9-b299-bc68b6904da0 1 
+Nov 25 14:57:14.170 HYPERVISOR: exec_cmd: nio create_udp udp-5dbca97b-f7ef-4568-b333-502e261d42db 20047 127.0.0.1 20046 
+Nov 25 14:57:14.170 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-5dbca97b-f7ef-4568-b333-502e261d42db 
+Nov 25 14:57:14.180 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-5dbca97b-f7ef-4568-b333-502e261d42db 1 
+Nov 25 15:04:39.644 HYPERVISOR: exec_cmd: ethsw rename Switch3 DESIGN 
+Nov 25 15:04:39.644 HYPERVISOR: exec_cmd: ethsw set_access_port DESIGN udp-b1b7619f-e103-4935-ac1c-6bee5130ab9d 1 
+Nov 25 15:04:39.644 HYPERVISOR: exec_cmd: ethsw set_access_port DESIGN udp-90577a7c-07ab-4ed9-b299-bc68b6904da0 1 
+Nov 25 15:04:39.645 HYPERVISOR: exec_cmd: ethsw set_access_port DESIGN udp-5dbca97b-f7ef-4568-b333-502e261d42db 1 
+Nov 25 15:04:39.704 HYPERVISOR: exec_cmd: ethsw set_access_port DESIGN udp-b1b7619f-e103-4935-ac1c-6bee5130ab9d 1 
+Nov 25 15:04:39.704 HYPERVISOR: exec_cmd: ethsw set_access_port DESIGN udp-90577a7c-07ab-4ed9-b299-bc68b6904da0 1 
+Nov 25 15:04:39.704 HYPERVISOR: exec_cmd: ethsw set_access_port DESIGN udp-5dbca97b-f7ef-4568-b333-502e261d42db 1 
+Nov 25 15:06:20.426 HYPERVISOR: exec_cmd: ethsw set_access_port DESIGN udp-b1b7619f-e103-4935-ac1c-6bee5130ab9d 1 
+Nov 25 15:06:20.427 HYPERVISOR: exec_cmd: ethsw set_access_port DESIGN udp-90577a7c-07ab-4ed9-b299-bc68b6904da0 1 
+Nov 25 15:06:20.427 HYPERVISOR: exec_cmd: ethsw set_access_port DESIGN udp-5dbca97b-f7ef-4568-b333-502e261d42db 1 

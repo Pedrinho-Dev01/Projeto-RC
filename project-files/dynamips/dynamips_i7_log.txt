@@ -1,0 +1,45 @@
+Nov 25 14:57:12.010 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 25 14:57:12.011 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 28039.
+Nov 25 14:57:12.012 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 25 14:57:12.012 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Laranjo\GNS3\projects\Projeto\project-files\dynamips 
+Nov 25 14:57:12.012 GENERAL: working_dir=C:\Users\Laranjo\GNS3\projects\Projeto\project-files\dynamips
+Nov 25 14:57:12.012 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Laranjo\GNS3\projects\Projeto\project-files\dynamips\d691d62b-3110-4a71-8180-11f01d88e78b 
+Nov 25 14:57:12.012 GENERAL: working_dir=C:\Users\Laranjo\GNS3\projects\Projeto\project-files\dynamips\d691d62b-3110-4a71-8180-11f01d88e78b
+Nov 25 14:57:12.013 HYPERVISOR: exec_cmd: vm create ISP 3 c7200 
+Nov 25 14:57:12.013 VM: VM ISP created.
+Nov 25 14:57:12.014 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP 5027 
+Nov 25 14:57:12.014 HYPERVISOR: exec_cmd: c7200 get_mac_addr ISP 
+Nov 25 14:57:12.014 HYPERVISOR: exec_cmd: vm get_status ISP 
+Nov 25 14:57:12.014 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 0 0 C7200-IO-FE 
+Nov 25 14:57:12.015 HYPERVISOR: exec_cmd: vm set_disk0 ISP 0 
+Nov 25 14:57:12.015 HYPERVISOR: exec_cmd: vm set_exec_area ISP 64 
+Nov 25 14:57:12.016 HYPERVISOR: exec_cmd: vm get_status ISP 
+Nov 25 14:57:12.016 HYPERVISOR: exec_cmd: vm set_idle_pc ISP 0x60608040 
+Nov 25 14:57:12.017 HYPERVISOR: exec_cmd: vm set_ios ISP C:/Users/Laranjo/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Nov 25 14:57:12.017 HYPERVISOR: exec_cmd: c7200 set_mac_addr ISP ca03.2b88.0000 
+Nov 25 14:57:12.017 HYPERVISOR: exec_cmd: vm set_nvram ISP 512 
+Nov 25 14:57:12.017 HYPERVISOR: exec_cmd: vm set_ram ISP 512 
+Nov 25 14:57:12.018 HYPERVISOR: exec_cmd: vm get_status ISP 
+Nov 25 14:57:12.018 HYPERVISOR: exec_cmd: vm slot_remove_binding ISP 0 0 
+Nov 25 14:57:12.018 HYPERVISOR: exec_cmd: vm get_status ISP 
+Nov 25 14:57:12.018 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 0 0 C7200-IO-2FE 
+Nov 25 14:57:12.018 HYPERVISOR: exec_cmd: vm get_status ISP 
+Nov 25 14:57:12.018 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 1 0 PA-2FE-TX 
+Nov 25 14:57:12.967 HYPERVISOR: exec_cmd: nio create_udp udp-f52b82bd-7b78-46a2-a1da-770fc64a8f41 20004 127.0.0.1 20005 
+Nov 25 14:57:13.207 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 0 udp-f52b82bd-7b78-46a2-a1da-770fc64a8f41 
+Nov 25 14:57:13.208 HYPERVISOR: exec_cmd: vm get_status ISP 
+Nov 25 14:57:14.121 HYPERVISOR: exec_cmd: nio create_udp udp-0e6e5a20-0375-4823-8ac0-36faf22a92f6 20044 127.0.0.1 20045 
+Nov 25 14:57:14.123 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 1 udp-0e6e5a20-0375-4823-8ac0-36faf22a92f6 
+Nov 25 14:57:14.123 HYPERVISOR: exec_cmd: vm get_status ISP 
+Nov 25 14:57:35.505 HYPERVISOR: exec_cmd: vm set_ghost_status ISP 2 
+Nov 25 14:57:35.507 HYPERVISOR: exec_cmd: vm set_ghost_file ISP C:\Users\Laranjo\GNS3\projects\Projeto\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Nov 25 14:57:35.507 HYPERVISOR: exec_cmd: vm get_status ISP 
+Nov 25 14:57:35.508 HYPERVISOR: exec_cmd: vm set_config ISP configs\i3_startup-config.cfg configs\i3_private-config.cfg 
+Nov 25 14:57:35.508 HYPERVISOR: exec_cmd: vm start ISP 
+Nov 25 14:58:05.731 HYPERVISOR: exec_cmd: vm set_ios ISP C:/Users/Laranjo/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Nov 25 14:58:05.913 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Nov 25 14:59:36.448 HYPERVISOR: exec_cmd: vm set_ios ISP C:/Users/Laranjo/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Nov 25 15:06:59.868 HYPERVISOR: exec_cmd: vm get_status ISP 
+Nov 25 15:06:59.869 HYPERVISOR: exec_cmd: vm stop ISP 
+Nov 25 15:07:00.005 VM: VM ISP shutdown.
+Nov 25 15:07:00.006 HYPERVISOR: exec_cmd: vm extract_config ISP 
