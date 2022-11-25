@@ -662,7 +662,7 @@
                 "template_id": "3fcad0cc-784b-432d-b28d-03e84f279bd4",
                 "width": 66,
                 "x": -150,
-                "y": 20,
+                "y": 21,
                 "z": 1
             },
             {
@@ -1080,7 +1080,7 @@
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
                 "x": -44,
-                "y": -468,
+                "y": -469,
                 "z": 1
             },
             {
@@ -1402,8 +1402,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": -264,
-                "y": -464,
+                "x": -322,
+                "y": -467,
                 "z": 1
             },
             {
@@ -1431,8 +1431,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": -668,
-                "y": 9,
+                "x": -667,
+                "y": 6,
                 "z": 1
             },
             {
