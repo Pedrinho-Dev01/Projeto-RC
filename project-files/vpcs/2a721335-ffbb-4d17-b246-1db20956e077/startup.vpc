@@ -1,2 +1,3 @@
 set pcname PCPRDMZ
 dhcp
+ip auto

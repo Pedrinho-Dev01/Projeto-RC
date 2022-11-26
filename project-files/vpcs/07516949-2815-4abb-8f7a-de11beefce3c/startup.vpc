@@ -1,3 +1,4 @@
-set pcname PCPUDATACENTER
+set pcname VPCS
 ip 198.183.127.162 198.183.127.161 28
 ip 2abc:4753:0:5::2/64
+ip auto
